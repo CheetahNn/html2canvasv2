@@ -1,7 +1,7 @@
 {
   "title": "html2canvas",
-  "name": "html2canvasv2",
-  "description": "Screenshots with JavaScript",
+  "name": "html2canvas-xxy",
+  "description": "",
   "main": "dist/html2canvas.js",
   "module": "dist/html2canvas.esm.js",
   "typings": "dist/types/index.d.ts",
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CheetahNn/html2canvasv2.git"
+    "url": "git+https://github.com/CheetahNn/html2canvasv2.git"
   },
   "bugs": {
-    "url": "https://github.com/niklasvh/html2canvas/issues"
+    "url": "https://github.com/CheetahNn/html2canvasv2/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
@@ -43,7 +43,7 @@
     "@types/promise-polyfill": "^6.0.3",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
-    "appium-ios-simulator": "^3.10.0",
+    "appium-ios-simulator": "^3.10.0" ,
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "babel-plugin-add-module-exports": "^1.0.2",
@@ -115,8 +115,8 @@
     "watch:unittest": "mocha --require ts-node/register --watch-extensions ts -w src/**/__tests__/*.ts",
     "start": "ts-node tests/server --port=8080 --cors=8081"
   },
-  "homepage": "https://html2canvas.hertzen.com",
-  "license": "MIT",
+  "homepage": "https://github.com/CheetahNn/html2canvasv2#readme",
+  "license": "ISC",
   "dependencies": {
     "css-line-break": "^2.1.0",
     "text-segmentation": "^1.0.3"
